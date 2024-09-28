@@ -1,10 +1,9 @@
-import Image from "next/image";
+import UploadPDF from "@/components/UploadPdf";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello World!</h1>
+      <UploadPDF />
     </main>
-   
   );
 }
