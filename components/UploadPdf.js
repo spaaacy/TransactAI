@@ -76,7 +76,7 @@ const UploadPDF = () => {
       {pdfFile && <p>{pdfFile.name}</p>}
       <button
         type="button"
-        className="btn btn-primary mt-2"
+        className="btn btn-dark mt-2"
         onClick={handleSubmit}
       >
         Analyze Bank Statement
