@@ -23,18 +23,15 @@ const UploadPDF = () => {
       return;
     }
 
-    const formData = new FormData();
-    formData.append("pdf", pdfFile);
-
     try {
       const response = await fetch("/api/openai", {
         method: "GET",
-        body: formData,
       });
 
       if (response.ok) {
         const data = await response.json();
-        console.log(data);
+        const jsonObject = JSON.parse(data.results)
+        console.log(jsonObject)
       } else {
         setErrorMessage("An error occurred. Please try again.");
       }
