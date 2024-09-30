@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://github.com/spaaacy/TransactAI/blob/main/public/images/transactai_logo.png?raw=true" width="25%" height="25%" />
 
-## Getting Started
+A ShellHacks 2024 Project, built using Next.js and Bootstrap, also using the OpenAI API.
 
-First, run the development server:
+## What is TransactAI?
+TransactAI is your means of using bank statements to keep track of monthly subscriptions. No longer will Big Tech pocket your money without your knowledge, once again, giving power back to the consumer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How it works
+Users can upload their PDF for their latest bank statements to our website, which will then use AI to analyze and detect monthly payments to subscription services you might have not been aware of.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Problem
+Most companies capitalize on consumer ignorance to essentially charge them for services they do not use. Meanwhile, consumers are paying for these services with zero-knowledge as small payments to subscription services often get overlooked when one going through their bank statements.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Future ideas
+- Automated cancellation of services directly from the website itself
+- Monthly email service of all services used for that month
